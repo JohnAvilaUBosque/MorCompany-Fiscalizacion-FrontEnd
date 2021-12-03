@@ -1,0 +1,26 @@
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="assets/Logo.png">
+        </div>
+        <h2>Login</h2>
+        <div class="datos-ingreso">
+            <div class="input-box">
+                <span>Correo:</span>
+                <input type="text" class="correo" [(ngModel)]="login.correo">
+            </div>
+            <div class="input-box">
+                <span>Contraseña:</span>
+                <input type="password" class="contraseña" [(ngModel)]="login.clave">
+            </div>
+        </div>
+        <div class="botones">
+            <div class="boton">
+                <button (click)="autenticar()">Ingresar</button>
+            </div>
+            <div class="link">
+                <a href="/registro">Registrarse</a>
+            </div>
+        </div>
+    </div>
+</body>

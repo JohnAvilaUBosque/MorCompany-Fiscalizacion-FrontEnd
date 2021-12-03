@@ -2,10 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Helvetica', sans-serif;
 }
 
-body{
+body {
   display: flex;
   height: 100vh;
   justify-content: center;
@@ -14,34 +14,43 @@ body{
   background:  #F6F8F9 0% 0% no-repeat padding-box;
 }
 
-.container{
-  max-width: 550px;
+.container {
+  max-width: 700px;
   width: 100%;
-  background:#F6F8F9 0% 0% no-repeat padding-box;
-  padding: 25px 30px;
-  border-radius: 5px;
+  background:#ffffff 0% 0% no-repeat padding-box;
+  padding: 50px 30px;
+  border-radius: 30px;
 }
 
-.container .datos-ingreso{
+.container h2 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  width: 50%;
+  height: 50%;
+}
+
+.container .datos-ingreso {
   display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.datos-ingreso .input-box{
+.datos-ingreso .input-box {
   margin: 20px 0 12px 0;
     width: calc(100% /2 - 20px);
 }
 
-.datos-ingreso .input-box .datos{
-  font-weight: 500;
-  margin-bottom: 5px;
-  font: normal normal bold 13px/20px Acumin Pro
-}
-
-.datos-ingreso .input-box input{
+.datos-ingreso .input-box input {
   height: 45px;
   width: 100%;
+  margin-top: 10px;
   outline: none;
   border-radius: 5px;
   border: 1px solid #ccc;
@@ -49,17 +58,21 @@ body{
   font-size: 16px;
 }
 
-.botones{
+.botones {
   height: 45px;
-    margin: 45px 0;
+    margin: 20px 0;
 }
 
-.botones input{
+.botones .boton {
+  margin: 20px 0 12px 0;
+  width: 100%;
+}
+
+.botones button {
   height: 45px;
   width: 100%;
   outline: none;
   color: #fff;
-  font: normal normal bold 11px/20px Helvetica;
   font-size: 18px;
   font-weight: 500;
   border-radius: 5px;
@@ -67,7 +80,10 @@ body{
   background: #12589F 0% 0% no-repeat padding-box;
 }
 
-.botones .boton{
-  margin: 20px 0 12px 0;
-  width: 100%;
+.botones button:hover {
+  cursor: pointer;
+}
+
+.botones .link {
+  text-align: center;
 }

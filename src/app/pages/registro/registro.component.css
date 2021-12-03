@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica', sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background:  #F6F8F9 0% 0% no-repeat padding-box;
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+  background:#ffffff 0% 0% no-repeat padding-box;
+  padding: 50px 30px;
+  border-radius: 30px;
+}
+
+.container h2 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  width: 50%;
+  height: 50%;
+}
+
+.container .datos-ingreso {
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.datos-ingreso .input-box {
+  margin: 20px 0 12px 0;
+    width: calc(100% /2 - 20px);
+}
+
+.datos-ingreso .input-box input {
+  height: 45px;
+  width: 100%;
+  margin-top: 10px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+}
+
+.botones {
+  height: 45px;
+    margin: 20px 0;
+}
+
+.botones .boton {
+  margin: 20px 0 12px 0;
+  width: 100%;
+}
+
+.botones button {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  background: #12589F 0% 0% no-repeat padding-box;
+}
+
+.botones button:hover {
+  cursor: pointer;
+}
+
+.botones .link {
+  text-align: center;
+}

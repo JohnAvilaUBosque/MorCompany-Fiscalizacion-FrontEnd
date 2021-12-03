@@ -1,0 +1,38 @@
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="assets/Logo.png">
+    </div>
+    <h2>Registro</h2>
+    <div class="datos-ingreso">
+      <div class="input-box">
+        <span class="datos">Nombre:</span>
+        <input type="text" class="nombre" [(ngModel)]="usuario.nombres">
+      </div>
+      <div class="input-box">
+        <span class="datos">Apellido:</span>
+        <input type="text" class="apellido" [(ngModel)]="usuario.apellidos">
+      </div>
+      <div class="input-box">
+        <span class="datos">Correo:</span>
+        <input type="text" class="correo" [(ngModel)]="usuario.correo">
+      </div>
+      <div class="input-box">
+        <span class="datos">Contraseña:</span>
+        <input type="password" class="contraseña" [(ngModel)]="usuario.clave">
+      </div>
+      <div class="input-box">
+        <span class="datos">Confirmacion Contraseña:</span>
+        <input type="password" class="confirmacion" [(ngModel)]="clave2">
+      </div>
+    </div>
+    <div class="botones">
+      <div class="boton">
+        <button (click)="registrarse()">Continuar</button>
+      </div>
+      <div class="link">
+        <a href="/usuario">Iniciar sesión</a>
+      </div>
+    </div>
+  </div>
+</body>
